@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="body2">
+  <div class="bg-text1">
+      <h2 style="color:goldenrod; font-size:35px;"> Covid-19 Test Report</h2>
+      <h3>Patient Name: <a style="color:crimson">{{name}}</a></h3>
+      <h3>Patient's Age: <a style="color:crimson">{{age}}</a></h3>
+      <h3>Gender: <a style="color:crimson">{{gender}}</a></h3>
+      <h3>Patient's X-ray image: </h3>
+      <div>
+          <img src="{{img}}" alt="X-ray Image" width="210" height="210"></img>
+      </div><br>
+    <h3>Covid-19 Test Result: <a style="color:darkred;">{{prediction}}</a></h3>
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="body1">
+    <div class="bg-text">
+      <h1>Covid-19 Diagnosis app</h1>
+      <h3 style="color:cornsilk">Check if you are covid positive with your X-ray</h3>
+    </div>
+    <div class="form">
+    <div class="subtitle">Patient Details</div>
+      <form action = "/predict" method = "POST" 
+         enctype = "multipart/form-data">
+         <div class="input-container ic2">
+          <label for="pname" class="placeholder1">Patient name:</label>
+          <input type="text" id="pname" name="pname" placeholder=" " class="input"/>
+        </div>
+        <div class="input-container ic2">
+          <label for="age" class="placeholder1">Patient's age:</label>
+          <div class="cut"></div>
+          <input type="number" id="age" name="age" palceholder=" " class="input"/>
+        </div>
+        <br>
+        <div class="input-container ic3">
+          &nbsp;<label for="gender" class="placeholder1">Gender: </label><br>
+          <div class="cut"></div>
+          &emsp;&ensp;<input type="radio" name="gender" id="male" value="male" ><label for="male" style = "color:white">Male</label>&emsp;&emsp;&emsp;&emsp;&ensp;
+          <input type="radio" name="gender" id="female" value="female" ><label for="female" style = "color:white">Female</label>
+        </div>
+        <div class="input-container ic2">
+          <label for="file" class="placeholder1">X-ray report:</label>
+          <div class="cut cut-short"></div>
+          <input type = "file" id="file" name = "file" class="input" />
+        </div>
+        <input type="submit" class="submit" value="Submit"/>
+      </form>
+    </div>
+</body>
+</html>
