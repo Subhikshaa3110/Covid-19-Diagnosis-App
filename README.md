@@ -18,8 +18,8 @@ Covid-19 Diagnosis using Chest X-ray Images. Machine Learning Project which crea
 <li>Python web framework Flask is used to display the Covid-19 Diagnosis as an application.
   
 Output:<br><br>
-  The user should enter the patient details and upload the chest X-ray image<br>
+  The user should enter the patient details and upload the chest X-ray image<br><br>
   ![op-page1](https://user-images.githubusercontent.com/64024900/144715666-6e1877f7-7bb5-4aad-a5c5-74d597639f05.png)
 <br><br>
-  Covid-19 Prediction report is displayed along with patient details
+  Covid-19 Prediction report is displayed along with patient details<br><br>
   ![op-page2](https://user-images.githubusercontent.com/64024900/144715677-42714d09-c7de-4a1a-85ea-84f2e0fe2700.png)
