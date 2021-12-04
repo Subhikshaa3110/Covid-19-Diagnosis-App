@@ -1,4 +1,5 @@
 # Covid-19-Diagnosis-App
+Dataset and model - https://drive.google.com/drive/folders/1tjESwgrVvVfyw3SVYM-f9iAJTj_pLRBq?usp=sharing <br>
 Covid-19 Diagnosis using Chest X-ray Images. Machine Learning Project which creates an image classifier using Keras by implementing a Convolution Neural Network(CNN) to differentiate between Chest X-rays images with a COVID-19 infectious person versus Normal Healthy people. The dataset contains the lungs X-ray images of both groups(COVID-19 and Healthy patients).
 <li>Imported necessary libraries and Data Exploration
 <li>Data visualization, displayed 10 Chest X-ray images of Covid-19 and Normal Healthy People using Matplotlib.
