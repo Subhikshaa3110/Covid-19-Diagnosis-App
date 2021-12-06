@@ -24,3 +24,6 @@ Output:<br><br>
 <br><br>
   Covid-19 Prediction report is displayed along with patient details<br><br>
   ![op-page2](https://user-images.githubusercontent.com/64024900/144715677-42714d09-c7de-4a1a-85ea-84f2e0fe2700.png)
+# Contributors
+  <li> S Subhikshaa
+  <li> Abinaya U
