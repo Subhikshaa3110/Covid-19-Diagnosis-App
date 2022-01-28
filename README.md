@@ -20,7 +20,7 @@ Covid-19 Diagnosis using Chest X-ray Images. Machine Learning Project which crea
   
 Output:<br><br>
   The user should enter the patient details and upload the chest X-ray image<br><br>
-  ![op-page1](https://user-images.githubusercontent.com/64024900/144715666-6e1877f7-7bb5-4aad-a5c5-74d597639f05.png)
+  ![image](https://user-images.githubusercontent.com/84259402/151563322-f2960320-05db-45b1-9e5a-94d67d25f413.png)
 <br><br>
   Covid-19 Prediction report is displayed along with patient details<br><br>
   ![op-page2](https://user-images.githubusercontent.com/64024900/144715677-42714d09-c7de-4a1a-85ea-84f2e0fe2700.png)
